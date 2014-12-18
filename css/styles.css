@@ -1,0 +1,38 @@
+/* Header styling ******************************************************/
+
+/* Adjust navbar height */
+.navbar-nav > li > a {
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+	line-height: 24px !important;
+}
+.navbar {
+	min-height:32px !important
+}
+
+.container-fluid {
+	border-bottom: 1px solid #BABABA;
+}
+
+.form-control:focus{
+	outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.form-control {
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-form {
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

@@ -1,0 +1,6 @@
+@media (max-width:733px) {
+	.form-control {
+		display: inline-block;
+		width: 88%;
+	}
+}
