@@ -7,7 +7,25 @@
 	line-height: 24px !important;
 }
 .navbar {
-	min-height:32px !important
+	min-height:32px !important;
+	margin-bottom:0px !important;
+}
+
+.navbar-default {
+	background-color: white;
+	border: none;
+}
+
+.navbar-form {
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-collapse{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }
 
 .container-fluid {
@@ -30,9 +48,14 @@
   box-shadow: none !important;
 }
 
-.navbar-form {
-	border-left: 1px black solid;
-	border-right: 1px black solid;
-	margin-top: 0px;
-	margin-bottom: 0px;
+
+.h1_site_logo{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-left: 13px;
+}
+
+.container_main_nav {
+	padding: 0px !important;
+	border: none;
 }
