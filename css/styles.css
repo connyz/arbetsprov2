@@ -7,6 +7,11 @@
 	line-height: 34px !important;
 	color: #000 !important;
 }
+
+.navbar-right {
+	font-weight: 500 !important;
+}
+
 .navbar {
 	min-height:32px !important;
 	margin-bottom:0px !important;
@@ -15,6 +20,10 @@
 .navbar-default {
 	background-color: white;
 	border: none;
+}
+
+.container_top_nav li .fa {
+	font-size: 20px;
 }
 
 .navbar-form {
@@ -69,8 +78,15 @@
 	font-size: 20px;
 }
 
+.container_main_nav li {
+	padding: 2px 3px 2px 3px;
+}
+
 .caret {
 	color: #FF5700;
+	border-top: 6px solid;
+	border-right: 6px solid transparent;
+	border-left: 6px solid transparent;
 }
 
 /* Slideshow styling *****************************************/
@@ -100,11 +116,27 @@
 	color: #4f4f4f;
 }
 
+.carousel-indicators .active {
+	background-color: #e4e4e4;
+}
+
+.carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	border: none;
+	background-color: #FF5700;
+	margin: 0 1px 0 1px;
+}
+
+.carousel-indicators {
+	bottom: -40px;
+}
+
 .lead {
 	margin-bottom: 35px;
 }
 
-.slider_container1, .slider_container2, .slider_container3 {
+.slider_container1, .slider_container2, .slider_container3, .slider_container4 {
 	background: url("../img/slidebg.jpg") no-repeat center center;
 }
 

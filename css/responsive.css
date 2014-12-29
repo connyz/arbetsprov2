@@ -3,4 +3,8 @@
 		display: inline-block;
 		width: 88%;
 	}
+
+	.navbar-nav {
+		margin: 7.5px 0px;
+	}
 }
