@@ -145,6 +145,30 @@
 	border-color: #FF5700
 }
 
+.carousel-caption .btn {
+	width: 158px;
+}
+
 .carousel_bg_color {
 	background-color: #EFEFEF;
+}
+
+/* Marketing styling *****************************************/
+
+.marketing {
+	margin-top: 104px;
+	border-bottom: 1px solid black;
+}
+
+.marketing .col-lg-4 {
+	text-align: center;
+	padding-bottom: 50px
+}
+
+.icon-background {
+	color: #FF5700;
+}
+
+.fa-stack-1x {
+	color: white;
 }
