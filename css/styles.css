@@ -160,6 +160,14 @@
 	/* border-bottom: 1px solid black; */
 }
 
+.marketing .col-lg-4:first-child {
+	padding-right: 20px;
+}
+
+.marketing .col-lg-4:last-child {
+	padding-left: 20px;
+}
+
 .marketing .col-lg-4 {
 	padding: 0;
 	text-align: center;
