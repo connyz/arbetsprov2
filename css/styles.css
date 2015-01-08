@@ -157,16 +157,8 @@
 
 .marketing {
 	margin-top: 104px;
-	/* border-bottom: 1px solid black; */
-}
-/*
-.marketing .col-lg-4:first-child {
-	padding-right: 20px;
 }
 
-.marketing .col-lg-4:last-child {
-	padding-left: 20px;
-}*/
 
 .marketing .col-lg-4 {
 	padding: 17px 17px 44px 17px;
@@ -182,14 +174,6 @@
 .marketing_lower {
 	margin-top: 35px;
 }
-/*
-.marketing_lower .col-lg-4:first-child {
-	padding-right: 20px;
-}
-
-.marketing_lower .col-lg-4:last-child {
-	padding-left: 20px;
-}*/
 
 .marketing_lower .col-lg-4 {
 	padding: 17px;
@@ -216,20 +200,22 @@
 	margin-bottom: 12px;
 }
 
-.marketing_lower .btn {
-	border: none;
-	padding: 0;
+.custom-btn {
+	text-decoration: none !important;
 	color: #FF5700;
 }
 
-.marketing_lower .btn-default {
-	background-color: transparent !important;
+.custom-btn:hover {
+	color: #FF5700;
+	text-decoration: none !important;
+	background-color: transparent;
 }
 
-.marketing_lower .btn-default:hover {
-	background-color: transparent !important;
+.custom-btn:visited {
+	color: #FF5700;
+	background-color: #ccc;
 }
 
-.marketing_lower .btn-default:active {
-	background-color: #ccc !important;
+.company_slider_div {
+	margin-bottom: 100px;
 }
