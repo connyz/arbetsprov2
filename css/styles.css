@@ -159,7 +159,6 @@
 	margin-top: 104px;
 }
 
-
 .marketing .col-lg-4 {
 	padding: 17px 17px 44px 17px;
 	text-align: center;
@@ -218,4 +217,56 @@
 
 .company_slider_div {
 	margin-bottom: 100px;
+}
+
+/* Company logos styling *****************************************/
+
+.company_logo_container {
+	margin-bottom: 100px;
+}
+
+.inner_item_div {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#company_logo_carousel {
+
+}
+
+.carousel-control { background: none !important; filter: none !important; progid:none !important; }
+
+.carousel-control {
+  padding-top: 5px;
+  width: 5px;
+  font-size: 50px;
+  color: #ddd;
+}
+
+.logo1 {
+	background: url("../img/google-edited.png") no-repeat center center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.logo2 {
+	background: url("../img/intel_logo-edited.png") no-repeat center center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.logo3 {
+	background: url("../img/logo-ibm-edited.png") no-repeat center center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.logo4 {
+	background: url("../img/samsung-logo-edited.png") no-repeat center center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
 }
