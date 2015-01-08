@@ -215,3 +215,21 @@
 	width: 57px;
 	margin-bottom: 12px;
 }
+
+.marketing_lower .btn {
+	border: none;
+	padding: 0;
+	color: #FF5700;
+}
+
+.marketing_lower .btn-default {
+	background-color: transparent !important;
+}
+
+.marketing_lower .btn-default:hover {
+	background-color: transparent !important;
+}
+
+.marketing_lower .btn-default:active {
+	background-color: #ccc !important;
+}
