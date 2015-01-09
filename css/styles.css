@@ -234,13 +234,29 @@
 
 }
 
-.carousel-control { background: none !important; filter: none !important; progid:none !important; }
-
 .carousel-control {
-  padding-top: 5px;
+	background: none !important;
+	filter: none !important;
+	progid:none !important;
+	text-shadow: none !important;
+  padding: 0;
+  top: -14px;
   width: 5px;
-  font-size: 50px;
-  color: #ddd;
+  font-size: 78px;
+  color: #ddd !important;
+  opacity: 1;
+}
+
+.carousel-control:hover {
+  color: #b5b5b5 !important;
+}
+
+.carousel-control:visited {
+  color: #ddd !important;
+}
+
+.carousel-control.right {
+	right: 15px;
 }
 
 .logo1 {
