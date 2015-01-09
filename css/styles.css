@@ -222,7 +222,13 @@
 /* Company logos styling *****************************************/
 
 .company_logo_container {
-	margin-bottom: 100px;
+	margin-bottom: 500px;
+}
+
+.carousel-inner {
+	width: 96%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .inner_item_div {
@@ -230,8 +236,9 @@
 	padding-right: 50px;
 }
 
-#company_logo_carousel {
-
+.carousel img {
+  min-width: 100%;
+  height: 100px;
 }
 
 .carousel-control {
@@ -256,33 +263,33 @@
 }
 
 .carousel-control.right {
-	right: 15px;
+	right: 20px;
 }
 
 .logo1 {
 	background: url("../img/google-edited.png") no-repeat center center;
-	background-size: cover;
-	height: 150px;
-	width: 150px;
+	background-size: contain;
+	height: 100px;
+	width: 220px;
 }
 
 .logo2 {
 	background: url("../img/intel_logo-edited.png") no-repeat center center;
-	background-size: cover;
-	height: 150px;
-	width: 150px;
+	background-size: contain;
+	height: 100px;
+	width: 220px;
 }
 
 .logo3 {
 	background: url("../img/logo-ibm-edited.png") no-repeat center center;
-	background-size: cover;
-	height: 150px;
-	width: 150px;
+	background-size: contain;
+	height: 100px;
+	width: 220px;
 }
 
 .logo4 {
 	background: url("../img/samsung-logo-edited.png") no-repeat center center;
-	background-size: cover;
-	height: 150px;
-	width: 150px;
+	background-size: contain;
+	height: 100px;
+	width: 220px;
 }
