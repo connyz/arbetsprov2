@@ -356,3 +356,39 @@
 	width: 48px;
 	margin-bottom: 12px;
 }
+
+.form_div {
+	margin-bottom: 23px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600 !important;
+	padding: 53px 20px 0 20px;
+}
+
+.form-control {
+	font-size: 17px !important;
+}
+
+textarea.form-control {
+	height: 77px;
+	resize: none;
+	padding-left: 12px;
+}
+
+#textinput {
+	padding-left: 12px;
+}
+
+.form_div .btn:hover {
+	color: #fff;
+	background-color: #D44800;
+}
+
+.contact_submit {
+	font-size: 19px;
+	font-weight: bold;
+	margin-top: 13px;
+	float: right;
+	width: 108px;
+	background-color: #FF5700;
+	color: #fff;
+}
