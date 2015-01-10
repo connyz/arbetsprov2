@@ -332,6 +332,10 @@
 	color: #FF5700;
 }
 
+.social_div h3:last-of-type {
+	font-weight: 600;
+}
+
 .fa-mobile {
 	font-size: 51px;
 	vertical-align: middle;
@@ -344,6 +348,11 @@
 	vertical-align: middle;
 }
 
-.form_div {
+.social_icons_div {
+	margin-left: -8px;
+}
 
+.social-icon {
+	width: 48px;
+	margin-bottom: 12px;
 }
