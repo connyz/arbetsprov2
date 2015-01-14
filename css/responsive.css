@@ -1,4 +1,4 @@
-@media (max-width:1200px) {
+@media (max-width:1199px) {
 	.separator{
 		display: none;
 	}
@@ -30,8 +30,11 @@
 
 }
 
-@media (min-width:992px) {
-
+@media (max-width:992px) {
+	.col-centered2{
+		float: none;
+		margin: 0 auto;
+	}
 }
 
 @media (max-width:992px) {
