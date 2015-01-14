@@ -8,6 +8,10 @@
 	color: #000 !important;
 }
 
+.navbar-nav > li > a:hover {
+	background-color: #e7e7e7 !important;
+}
+
 .navbar-right {
 	font-weight: 500 !important;
 }
@@ -27,8 +31,8 @@
 }
 
 .navbar-form {
-	border-left: 1px black solid;
-	border-right: 1px black solid;
+	border-left: 1px #efefef solid;
+	border-right: 1px #efefef solid;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	line-height: 43px;
@@ -40,7 +44,7 @@
 }
 
 .container-fluid {
-	border-bottom: 1px solid #BABABA;
+	border-bottom: 2px solid #efefef;
 }
 
 .form-control:focus{
@@ -65,8 +69,20 @@
 	font-weight: 600;
 }
 
+.top_search_form {
+	margin-right: 56px !important;
+}
+
+.top_search {
+	width: 100px !important;
+}
+
+.site_logo_container a:hover {
+	text-decoration: none;
+}
 
 .h1_site_logo{
+	color: black;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	padding-left: 13px;
@@ -145,11 +161,16 @@
 	border-color: #FF5700
 }
 
+.btn-primary:hover {
+	background-color: #D44800;
+}
+
 .carousel-caption .btn {
 	width: 158px;
 }
 
 .carousel_bg_color {
+	border-top: 3px solid #e4e4e4;
 	background-color: #EFEFEF;
 }
 
@@ -167,7 +188,7 @@
 .separator {
 	width: 1106px;
 	height: 1px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #e4e4e4;
 }
 
 .marketing_lower {
@@ -208,6 +229,7 @@
 	color: #FF5700;
 	text-decoration: none !important;
 	background-color: transparent;
+	border-bottom: 1px solid #FF5700;
 }
 
 .custom-btn:visited {
@@ -226,7 +248,7 @@
 }
 
 .carousel-inner {
-	width: 96%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -298,11 +320,10 @@
 
 .footer_div {
 	background-color: #ddd;
-	margin-bottom: 500px;
 }
 
 .address_div {
-	padding: 37px 20px 20px 15px;
+	padding: 49px 20px 20px 15px;
 }
 
 .address_div h3:first-child {
@@ -318,7 +339,15 @@
 
 .social_div {
 	font-family: "Raleway", sans-serif !important;
-	padding: 37px;
+	padding: 49px 37px 37px 37px;
+}
+
+.social_div .mailto_link a {
+	text-decoration: none;
+}
+
+.social_div .mailto_link a:hover {
+	border-bottom: 1px solid #FF5700;
 }
 
 .social_div h3 {
@@ -361,7 +390,7 @@
 	margin-bottom: 23px;
 	font-family: "Raleway", sans-serif;
 	font-weight: 600 !important;
-	padding: 53px 20px 0 20px;
+	padding: 62px 20px 0 20px;
 }
 
 .form-control {
@@ -391,4 +420,13 @@ textarea.form-control {
 	width: 108px;
 	background-color: #FF5700;
 	color: #fff;
+}
+
+.copyright_div {
+	font-family: "Raleway", sans-serif;
+	padding: 20px;
+}
+
+.copyright_div h4 {
+	font-weight: 600;
 }
