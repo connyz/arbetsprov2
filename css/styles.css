@@ -85,11 +85,11 @@ body { overflow-x: hidden;}
 	width: 100px !important;
 }
 
-.site_logo_container a:hover {
+.site_logo_container a {
 	text-decoration: none;
 }
 
-.h1_site_logo{
+.h1_site_logo {
 	color: black;
 	margin-top: 40px;
 	margin-bottom: 40px;
