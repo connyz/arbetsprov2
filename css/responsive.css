@@ -3,8 +3,13 @@
 		display: none;
 	}
 
+	.carousel-caption h1 {
+		font-size: 40px;
+	}
+
 	.carousel-caption p {
-		font-size: 17px;
+		font-size: 21px;
+		margin-bottom: 25px;
 	}
 
 	.contact_submit {
@@ -16,7 +21,7 @@
 	}
 
 	.social_div {
-		padding: 49px 37px 37px 15px;
+		padding: 18px 37px 37px 15px;
 	}
 
 	.col-centered{
@@ -35,12 +40,21 @@
 		float: none;
 		margin: 0 auto;
 	}
-}
 
-@media (max-width:992px) {
 	.company_logo_container {
 		display: none;
 	}
+
+	.carousel-caption h1 {
+		font-size: 30px;
+	}
+
+	.carousel-caption p {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+
+
 }
 
 @media (max-width:767px) {
@@ -53,9 +67,46 @@
 		margin: 7.5px 0px;
 	}
 
-	.carousel-caption p {
-		font-size: 17px;
+	.navbar-form {
+		margin-left: 15px;
+		border: none;
+		padding: 0;
 	}
 
+	.carousel-caption h1 {
+		font-size: 24px;
+	}
+
+	.carousel-caption p {
+		font-size: 16px;
+		margin-top: 32px;
+		margin-bottom: 32px;
+	}
+
+	.carousel-caption .btn {
+		font-size: 12px;
+	}
+
+}
+
+@media (max-width:679px) {
+	.main_slide {
+		display: none;
+	}
+
+	.marketing {
+		margin-top: 39px;
+	}
+
+}
+
+@media (max-width:456px) {
+	.social_div h3:first-child {
+		font-size: 14px;
+	}
+
+	.social_div h3:nth-child(2) {
+		font-size: 14px;
+	}
 }
 

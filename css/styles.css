@@ -20,6 +20,10 @@ body { overflow-x: hidden;}
 	font-weight: 500 !important;
 }
 
+.upper_nav_button {
+	margin-right: 0;
+}
+
 .navbar {
 	min-height:32px !important;
 	margin-bottom:0px !important;
@@ -181,7 +185,7 @@ body { overflow-x: hidden;}
 /* Marketing styling *****************************************/
 
 .marketing {
-	margin-top: 104px;
+	margin-top: 82px;
 }
 
 .marketing .col-lg-4 {
